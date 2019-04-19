@@ -1,19 +1,19 @@
 --- !!omap
 - out_manifest: |
-    c397933acb9d5f46d0295505b141053d5d0ea2a8506770e1e8123777514f3020  pivx-3.2.0-aarch64-linux-gnu-debug.tar.gz
-    fffe53993f509856619cb09bf81ac7ac309a8b65fac3d5480512c0a60fab79b1  pivx-3.2.0-aarch64-linux-gnu.tar.gz
-    1256ea0578759c27e9622135df998a861af736cf03daf8bf1bb12a9c4109474d  pivx-3.2.0-arm-linux-gnueabihf-debug.tar.gz
-    0ed19b246cc4e8ce3437410ae1408492d59571a082db822598d294714403d84b  pivx-3.2.0-arm-linux-gnueabihf.tar.gz
-    1117cd930b22a53364ebc8b273d160d206de6d705fd278c364aaea4f41de640f  pivx-3.2.0-i686-pc-linux-gnu-debug.tar.gz
-    8ee5c59815c8229ff5153cb7e5ea3fa50ba26c449853cd89cd90564af95bf5ac  pivx-3.2.0-i686-pc-linux-gnu.tar.gz
-    f31338107721d3decdcd8e64fe3f6f45ada694d5f3386168104d0c8d38a1be8d  pivx-3.2.0-riscv64-linux-gnu-debug.tar.gz
-    a5e25ea88bb7d3403ca1b19f5f21509d6cb167cc8b1607f06c42ef742ceea6ee  pivx-3.2.0-riscv64-linux-gnu.tar.gz
-    3075f9fa0bd5c065c71003182c5077e993aef0f49eabd4238272a2de0007d9b2  pivx-3.2.0-x86_64-linux-gnu-debug.tar.gz
-    48c35019f3619767d89b5aaa1442a93369ce0723f14a6aa6af117acda6ab54ea  pivx-3.2.0-x86_64-linux-gnu.tar.gz
-    d7bbae69c2b95dccb3f5ad27616bf46f752e84a32f6fe05de3ec8316c0bc4fdd  src/pivx-3.2.0.tar.gz
+    c397933acb9d5f46d0295505b141053d5d0ea2a8506770e1e8123777514f3020  npccoin-3.2.0-aarch64-linux-gnu-debug.tar.gz
+    fffe53993f509856619cb09bf81ac7ac309a8b65fac3d5480512c0a60fab79b1  npccoin-3.2.0-aarch64-linux-gnu.tar.gz
+    1256ea0578759c27e9622135df998a861af736cf03daf8bf1bb12a9c4109474d  npccoin-3.2.0-arm-linux-gnueabihf-debug.tar.gz
+    0ed19b246cc4e8ce3437410ae1408492d59571a082db822598d294714403d84b  npccoin-3.2.0-arm-linux-gnueabihf.tar.gz
+    1117cd930b22a53364ebc8b273d160d206de6d705fd278c364aaea4f41de640f  npccoin-3.2.0-i686-pc-linux-gnu-debug.tar.gz
+    8ee5c59815c8229ff5153cb7e5ea3fa50ba26c449853cd89cd90564af95bf5ac  npccoin-3.2.0-i686-pc-linux-gnu.tar.gz
+    f31338107721d3decdcd8e64fe3f6f45ada694d5f3386168104d0c8d38a1be8d  npccoin-3.2.0-riscv64-linux-gnu-debug.tar.gz
+    a5e25ea88bb7d3403ca1b19f5f21509d6cb167cc8b1607f06c42ef742ceea6ee  npccoin-3.2.0-riscv64-linux-gnu.tar.gz
+    3075f9fa0bd5c065c71003182c5077e993aef0f49eabd4238272a2de0007d9b2  npccoin-3.2.0-x86_64-linux-gnu-debug.tar.gz
+    48c35019f3619767d89b5aaa1442a93369ce0723f14a6aa6af117acda6ab54ea  npccoin-3.2.0-x86_64-linux-gnu.tar.gz
+    d7bbae69c2b95dccb3f5ad27616bf46f752e84a32f6fe05de3ec8316c0bc4fdd  src/npccoin-3.2.0.tar.gz
 - in_manifest: |-
-    a5351a3bbd927388b29a325464fe75d29c4bc516d215551ac6f721bf4b87ff9a  pivx-linux-3.2-desc.yml
-    git:ab66c1a4a0b57c80eeaa614759cfa898bec1087a pivx
+    a5351a3bbd927388b29a325464fe75d29c4bc516d215551ac6f721bf4b87ff9a  npccoin-linux-3.2-desc.yml
+    git:ab66c1a4a0b57c80eeaa614759cfa898bec1087a npccoin
 - base_manifests: !!omap
   - bionic-amd64: |
       d451eb00b2d0e2940e26028ea9f2fb1be4f5109010e997acfb2c46229ebd9ebe  adduser_3.116ubuntu1_all.deb
@@ -1534,6 +1534,6 @@
     7d5785d3321914389ddb4acc6db4a62b7f1321b98fbae5c1236d8bea0b910332  x86_64-linux-gnu/zlib/zlib-1.2.11-fddeb41705d.tar.gz
     6b8f57c7373f19ffdb00d18d837aa773433097a1e0ab33b302349640bcf1f074  x86_64-linux-gnu/zlib/zlib-1.2.11-fddeb41705d.tar.gz.hash
 - release: 3.2.0-linux
-- name: pivx-linux-3.2
+- name: npccoin-linux-3.2
 - type: build
 - optionals: 

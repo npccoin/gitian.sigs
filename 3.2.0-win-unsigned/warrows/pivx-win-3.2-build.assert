@@ -1,16 +1,16 @@
 --- !!omap
 - out_manifest: |
-    55e71396bc2024acc6b16a6a653dd0108bcddfed4d47a54be443fc502a720337  pivx-3.2.0-win-unsigned.tar.gz
-    928bcbdfea1ca57b04c23e0565892379ce6b8d5e106da11648d715fd31f03677  pivx-3.2.0-win32-debug.zip
-    5c96b25441408aa5bfc11e46c8d9976162f91738c2021126c8eed290a1f5e938  pivx-3.2.0-win32-setup-unsigned.exe
-    a530a0cbee943295773843dc4c44233f7505ee5295b4dbb097e1548e621fb2db  pivx-3.2.0-win32.zip
-    0de370a30639d005bd5c85dfd40f01fa248e73e46f00a5c9e0cfc1879cb3f15f  pivx-3.2.0-win64-debug.zip
-    67f021ede20ab042d2692ea4bcb11099cb458f42c87ddb75936bc4352bc419f4  pivx-3.2.0-win64-setup-unsigned.exe
-    2c566c6d7c9b39ba1e370ea641cf32d3591e49009ab535039a59ede5a47eed29  pivx-3.2.0-win64.zip
-    d7bbae69c2b95dccb3f5ad27616bf46f752e84a32f6fe05de3ec8316c0bc4fdd  src/pivx-3.2.0.tar.gz
+    55e71396bc2024acc6b16a6a653dd0108bcddfed4d47a54be443fc502a720337  npccoin-3.2.0-win-unsigned.tar.gz
+    928bcbdfea1ca57b04c23e0565892379ce6b8d5e106da11648d715fd31f03677  npccoin-3.2.0-win32-debug.zip
+    5c96b25441408aa5bfc11e46c8d9976162f91738c2021126c8eed290a1f5e938  npccoin-3.2.0-win32-setup-unsigned.exe
+    a530a0cbee943295773843dc4c44233f7505ee5295b4dbb097e1548e621fb2db  npccoin-3.2.0-win32.zip
+    0de370a30639d005bd5c85dfd40f01fa248e73e46f00a5c9e0cfc1879cb3f15f  npccoin-3.2.0-win64-debug.zip
+    67f021ede20ab042d2692ea4bcb11099cb458f42c87ddb75936bc4352bc419f4  npccoin-3.2.0-win64-setup-unsigned.exe
+    2c566c6d7c9b39ba1e370ea641cf32d3591e49009ab535039a59ede5a47eed29  npccoin-3.2.0-win64.zip
+    d7bbae69c2b95dccb3f5ad27616bf46f752e84a32f6fe05de3ec8316c0bc4fdd  src/npccoin-3.2.0.tar.gz
 - in_manifest: |-
-    6de1e9d07385516679751dc6e7f6ca6141c22ab79d577da8a536098fadfd3270  pivx-win-3.2-desc.yml
-    git:ab66c1a4a0b57c80eeaa614759cfa898bec1087a pivx
+    6de1e9d07385516679751dc6e7f6ca6141c22ab79d577da8a536098fadfd3270  npccoin-win-3.2-desc.yml
+    git:ab66c1a4a0b57c80eeaa614759cfa898bec1087a npccoin
 - base_manifests: !!omap
   - bionic-amd64: |
       d451eb00b2d0e2940e26028ea9f2fb1be4f5109010e997acfb2c46229ebd9ebe  adduser_3.116ubuntu1_all.deb
@@ -445,6 +445,6 @@
     cf2509a589a63241c5d6a7944ba847b5b4aabcacdecf77ac750cff8719c52d67  x86_64-w64-mingw32/zlib/zlib-1.2.11-d59552a85ce.tar.gz
     7693a0225bf14a6f92f6ad0e8a5c32c5fa42f1c12644f753a04924ab89ba1d6f  x86_64-w64-mingw32/zlib/zlib-1.2.11-d59552a85ce.tar.gz.hash
 - release: 3.2.0-win-unsigned
-- name: pivx-win-3.2
+- name: npccoin-win-3.2
 - type: build
 - optionals: 

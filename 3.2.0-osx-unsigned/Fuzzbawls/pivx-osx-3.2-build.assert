@@ -1,13 +1,13 @@
 --- !!omap
 - out_manifest: |
-    dae844e0a2aa8b72c09bba8cd40d46e338d3d6801aa342a9b79e7bbe5e7e5f8a  pivx-3.2.0-osx-unsigned.dmg
-    de2f698df70752bc9e5f39b181649d108b03cd03c60b73629c81335c015af13d  pivx-3.2.0-osx-unsigned.tar.gz
-    7178c990901ee8bfd3fe0afc2f89eb8fc77a30d2388aba1f960e01de0459a07d  pivx-3.2.0-osx64.tar.gz
-    d7bbae69c2b95dccb3f5ad27616bf46f752e84a32f6fe05de3ec8316c0bc4fdd  src/pivx-3.2.0.tar.gz
+    dae844e0a2aa8b72c09bba8cd40d46e338d3d6801aa342a9b79e7bbe5e7e5f8a  npccoin-3.2.0-osx-unsigned.dmg
+    de2f698df70752bc9e5f39b181649d108b03cd03c60b73629c81335c015af13d  npccoin-3.2.0-osx-unsigned.tar.gz
+    7178c990901ee8bfd3fe0afc2f89eb8fc77a30d2388aba1f960e01de0459a07d  npccoin-3.2.0-osx64.tar.gz
+    d7bbae69c2b95dccb3f5ad27616bf46f752e84a32f6fe05de3ec8316c0bc4fdd  src/npccoin-3.2.0.tar.gz
 - in_manifest: |-
-    7e29993a6592ffb38c04cdb9c9351029107df2fb2e73202fa2a409103085e92b  pivx-osx-3.2-desc.yml
+    7e29993a6592ffb38c04cdb9c9351029107df2fb2e73202fa2a409103085e92b  npccoin-osx-3.2-desc.yml
     b6b4c966842fe2989f5d04ef0068f4b49005e8de9d7e46b402ba9c61e48599e7  MacOSX10.11.sdk.tar.gz
-    git:ab66c1a4a0b57c80eeaa614759cfa898bec1087a pivx
+    git:ab66c1a4a0b57c80eeaa614759cfa898bec1087a npccoin
 - base_manifests: !!omap
   - bionic-amd64: |
       d451eb00b2d0e2940e26028ea9f2fb1be4f5109010e997acfb2c46229ebd9ebe  adduser_3.116ubuntu1_all.deb
@@ -526,6 +526,6 @@
     73b190b3d886c6849f3e251a8ad55bfa265dd5c4718f3817eb23f59fbdff3bf1  x86_64-apple-darwin14/zlib/zlib-1.2.11-850aef89b1a.tar.gz
     974b18b10033aa54b4334922cdcfe8369f33f8b00e089857789589cd88703c7a  x86_64-apple-darwin14/zlib/zlib-1.2.11-850aef89b1a.tar.gz.hash
 - release: 3.2.0-osx-unsigned
-- name: pivx-osx-3.2
+- name: npccoin-osx-3.2
 - type: build
 - optionals: 
