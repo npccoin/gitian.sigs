@@ -1,11 +1,11 @@
 --- !!omap
 - out_manifest: |
-    f0e519fa1bb49d9c7059d839650d5e38defd886fc8b8b687034bfa6c115efb7d  npccoin-2.0.0-win-unsigned.tar.gz
+    45e6deaced005fbaeca51a64b190e560a71a5cc443c6867d6fd0bfeda560862a  npccoin-2.0.0-win-unsigned.tar.gz
     a3e9cc1b51cb0a4a0723bc665cf9bcfd47d8ccd70f84c01aabb57279cd0a597e  npccoin-2.0.0-win32-debug.zip
-    6d81ea143d242d70f282f1ebb7ea15df98d63931888e9cadc6a78c2e0193d4ef  npccoin-2.0.0-win32-setup-unsigned.exe
+    3b5eac5e60340b187c945d9fd6b3f0fdbef2a2d632d73ad1f9f76268c167dd88  npccoin-2.0.0-win32-setup-unsigned.exe
     8dc0cc3156d914a2e7cdae86cab604ff1077c06c0a8bf859e806003f828d1442  npccoin-2.0.0-win32.zip
     ec1aeb5f1c9b0cc75ff7ad3699d999b1f43a7f969de76e5d351d7d8506e9df7c  npccoin-2.0.0-win64-debug.zip
-    8d04fa78c2c5fcce72d83e8f1989cfc904bfba2fde98a092257002823137f6cc  npccoin-2.0.0-win64-setup-unsigned.exe
+    44f8d9d4b90ca362a19fa019a05182100c03b320d3a7c157c2576c9571a34da9  npccoin-2.0.0-win64-setup-unsigned.exe
     661b1d848bce4ae12402e67a23cb10938937f445f276e87906c34120e8f582d8  npccoin-2.0.0-win64.zip
     e57f122f67822d7ec876d209b3be35bb5523a2667db7b10a910630c25db11534  src/npccoin-2.0.0.tar.gz
 - in_manifest: |-
