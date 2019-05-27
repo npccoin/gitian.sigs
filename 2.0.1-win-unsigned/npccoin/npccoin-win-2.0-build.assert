@@ -1,16 +1,16 @@
 --- !!omap
 - out_manifest: |
-    0f51a7b462ea5349ef96629e2bb1e982801fdd63e02e7569a0f0418a4b528106  npccoin-2.0.1-win-unsigned.tar.gz
+    6542ebf9923e1c12b849e54845136d7c2b2542bdf775b40257ced5e64915fdf0  npccoin-2.0.1-win-unsigned.tar.gz
     a3174cec7a4636d2cc56fbc47c12eb5a9d415392bf79390aaff41d1ec00da606  npccoin-2.0.1-win32-debug.zip
-    ba69c93c039bbd7b3c39c5e11b63430c3cb8a4a054f6b26aa50f5d3b2789703d  npccoin-2.0.1-win32-setup-unsigned.exe
+    4488a93eb8b93013267c50208474373e45c01c921b18ed659f1ad6ec9ab6ec9b  npccoin-2.0.1-win32-setup-unsigned.exe
     13f8248850752418592d70dd6d86fdce74888cd80602ba373b2678ebf3d8c193  npccoin-2.0.1-win32.zip
     972d855f3051866306f171de8a9b82c2a2a51f645a99863a3b34bba3d880f559  npccoin-2.0.1-win64-debug.zip
-    dff9734d416cbd2670111af8ecd302436644858afd769c0f5e6e3e2d1904439e  npccoin-2.0.1-win64-setup-unsigned.exe
+    3f62f4af2717d7b199f6d86c2df18631ac090a1d747956ea9ea6c0df1d45265b  npccoin-2.0.1-win64-setup-unsigned.exe
     5e18e73d38319b6671285da3f674cb5e0b037271bbe81101bfebc948eec69d31  npccoin-2.0.1-win64.zip
     38f98557f716f6b792a886747476d5513a2cdf6b6063cfba667820e5de46c2a5  src/npccoin-2.0.1.tar.gz
 - in_manifest: |-
     2ba0843e4afc0b0bb5e1b76e4d5fc6d63c4f58ba53cabc2b6ad1c51209b5c0d9  npccoin-win-2.0-desc.yml
-    git:f030b350cfa680f464efc86b0336d9a59ed30388 npccoin
+    git:7cf8488d9dc77594285d353313653340fe32cd40 npccoin
 - base_manifests: !!omap
   - bionic-amd64: |
       d451eb00b2d0e2940e26028ea9f2fb1be4f5109010e997acfb2c46229ebd9ebe  adduser_3.116ubuntu1_all.deb
@@ -383,7 +383,7 @@
     38eb62cb9dd04b3cdcad5437899f4521c2a74f51ed275d0f5a11af8c700259d3  x86_64-w64-mingw32/zeromq/zeromq-4.3.1-e6ee4480e15.tar.gz.hash
     c8e3f4bffa71134bd955756a6a7744a8916a0af6b68b2d2a74255890b0beddbc  x86_64-w64-mingw32/zlib/zlib-1.2.11-d59552a85ce.tar.gz
     ccaef9b9935302471e2501dcd3d4b2b310b4d8a6086356ee4d4fc352fac6d835  x86_64-w64-mingw32/zlib/zlib-1.2.11-d59552a85ce.tar.gz.hash
-- release: 2.0.0-win-unsigned
+- release: 2.0.1-win-unsigned
 - name: npccoin-win-2.0
 - type: build
 - optionals: 
